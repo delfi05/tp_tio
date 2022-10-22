@@ -1,0 +1,2 @@
+Flor creo  rama colaboradora y texto colaborador.
+joaco elimino noSirve.txt y mergeo a rama master
