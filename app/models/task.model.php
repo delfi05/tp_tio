@@ -49,4 +49,14 @@ class TaskModel {
         $query->execute([$id]);
         // var_dump($query->errorInfo()); // y eliminar la redireccion
     }
+    public function editTask($title, $description, $priority){
+        $query = $this->db->prepare("UPDATE task SET  titulo = ?, descripcion = ?, prioridad = ?, finalizada= ?
+        WHERE id_tasks= ?");
+        
+        try{
+            $query->execute(array(($title, $description, $priority, false)); 
+        }
+        catch(PDOException $e){
+        }
+
 }
