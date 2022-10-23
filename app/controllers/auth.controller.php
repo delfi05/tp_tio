@@ -44,5 +44,5 @@ class AuthController {
         session_destroy();
         header("Location: " . BASE_URL);
     }
-    //agrego comentario para git
+
 }
