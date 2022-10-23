@@ -30,3 +30,44 @@ CREATE DATABASE `db_tasks`;
 -- Estructura de tabla para la tabla `task`
 --
 
+CREATE TABLE `task` (
+  `id` int(11) NOT NULL,
+  `titulo` varchar(50) NOT NULL,
+  `descripcion` text,
+  `prioridad` int(11) NOT NULL DEFAULT '3',
+  `finalizada` tinyint(1) NOT NULL DEFAULT '0'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Volcado de datos para la tabla `task`
+--
+
+INSERT INTO `task` (`id`, `titulo`, `descripcion`, `prioridad`, `finalizada`) VALUES
+(72, 'Subir repo GIT', 'Subir repositorio GIT de la clase de Base de Datos', 3, 0),
+(73, 'Tarea 1', 'Tarea de ejemplo numero 1', 5, 0),
+(74, 'Tarea 2', 'Tarea de ejemplo numero 2', 1, 0);
+
+--
+-- Índices para tablas volcadas
+--
+
+--
+-- Indices de la tabla `task`
+--
+ALTER TABLE `task`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- AUTO_INCREMENT de las tablas volcadas
+--
+
+--
+-- AUTO_INCREMENT de la tabla `task`
+--
+ALTER TABLE `task`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=75;
+COMMIT;
+
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
