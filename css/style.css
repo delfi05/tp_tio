@@ -1,4 +1,5 @@
 .finalizada span {
     opacity: .6;
     text-decoration: line-through;
+    /*text-align: end;*/
 }
