@@ -1,4 +1,4 @@
 Flor arispe creo  rama colaboradora y texto colaborador.
 joaco elimino noSirve.txt y mergeo a rama master
 Flor Petruzzella agrego 3er linea en texto colaborador
-Ferreyra delfina agrego 4ta linea en texto colaborador
+Ferreyra delfina agrego 4ta linea en texto colaborador.
