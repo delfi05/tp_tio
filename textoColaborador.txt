@@ -1,3 +1,4 @@
 Flor creo  rama colaboradora y texto colaborador.
+Flor termino con sus ediciones en el proyecto.
 joaco elimino noSirve.txt y mergeo a rama master
 delfi termino de agregar todo en controllers
