@@ -1,7 +1,3 @@
 Flor creo  rama colaboradora y texto colaborador.
 joaco elimino noSirve.txt y mergeo a rama master
-<<<<<<< HEAD
-delfi termino de agregar todo en controllers
-=======
 Flor Petru agrego 3er linea en texto colaborador
->>>>>>> templates
