@@ -2,6 +2,7 @@
 Flor arispe creo  rama colaboradora y texto colaborador.
 joaco elimino noSirve.txt y mergeo a rama master
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 Flor Petruzzella agrego 3er linea en texto colaborador
 Ferreyra delfina agrego 4ta linea en texto colaborador.
@@ -12,3 +13,7 @@ Flor termino con sus ediciones en el proyecto.
 joaco elimino noSirve.txt y mergeo a rama master
 Flor Petru agrego 3er linea en texto colaborador
 >>>>>>> 8fc8ee1111c79ece76d9a1cea5e8a595701e2696
+=======
+Flor Petru agrego 3er linea en texto colaborador
+Joaco agrego una nueva línea ya que al anterior le faltaba un commit
+>>>>>>> colaboradora
